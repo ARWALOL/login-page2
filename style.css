@@ -5,7 +5,7 @@ body{
     display:flex;
     justify-content:center;
     align-items: 100vh;/*انقل كل العناصر للاسفل بشكل رأسي د*/
-    background:url('purple2.avif\ -\ Shortcut.lnk')no-repeat;
+    background:url('purple2.avif - Shortcut.lnk')no-repeat;
 }
 
 .wrapper{
@@ -103,4 +103,5 @@ body{
         padding: 0px  10px;
     -webkit-text-fill-color: white;
     
+
        }
