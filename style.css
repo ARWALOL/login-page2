@@ -1,0 +1,106 @@
+
+
+
+body{
+    display:flex;
+    justify-content:center;
+    align-items: 100vh;/*انقل كل العناصر للاسفل بشكل رأسي د*/
+    background:url('purple2.avif\ -\ Shortcut.lnk')no-repeat;
+}
+
+.wrapper{
+    width:420px;
+    border:2px solid rgba(115, 69, 152, 0.479);
+    backdrop-filter: blur(20px);
+    color :#fff;   /*لون النصوص تبع الرابط بس موالرابط*/
+    border-radius: 10px;
+    padding: 30px 40px;/* border and content  v,h */
+}
+
+.wrapper{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width:100%;
+    height:50px;
+    margin:30px 0px; /* space around the element v,h*/
+
+
+  
+}
+
+.input-box input { 
+    width:95%;
+    height:95%;
+    background:transparent;
+    border:2px solid rgba(166, 83, 181, 0.497); /*لون البوردر د*/
+    border-radius: 40px;/*انحناء البوردر د*/
+
+       
+}
+
+.input-box i{
+    position:absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+   
+}
+
+.wrapper .remember-forget{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: 15px ;
+}
+
+.remember-forget label input{
+    accent-color:#dbdbd4;
+    
+}
+.remember-forget a{
+    color:#fff;
+    text-decoration: none;
+}
+
+.remember-forget a:hover{
+    color:#fff;
+    text-decoration:underline;
+}
+
+    .wrapper .btn{
+        width:95%;
+        height:45px;
+        background:#fff;
+        border-radius: 40px;
+        font-size: 15px;
+    } 
+
+    .wrapper .register-link {
+        text-align: center;
+        font-size: 14.5px;
+        margin-top: 20px;
+    }
+    
+  
+    .register-link p a{
+        color:#fff;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    
+    .register-link p a:hover{
+        color:#fff;
+        text-decoration:underline;
+    }
+
+    .input-box input{
+        color: #f9f8f8;
+        padding: 0px  10px;
+    -webkit-text-fill-color: white;
+    
+       }
