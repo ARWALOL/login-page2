@@ -5,7 +5,7 @@ body{
     display:flex;
     justify-content:center;
     align-items: 100vh;/*انقل كل العناصر للاسفل بشكل رأسي د*/
-    background:url('purple2.avif.lnk')no-repeat;
+    background:url('purple2.avif')no-repeat;
 }
 
 .wrapper{
@@ -105,4 +105,5 @@ body{
     
 
        }
+
 
